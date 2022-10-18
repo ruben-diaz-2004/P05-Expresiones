@@ -59,24 +59,26 @@ También la sección "Trabajando con Git en Remoto" del
 [tutorial de Diego Martín](https://www.diegocmartin.com/tutorial-git/) 
 puede serle de ayuda para configurar la clave ssh.
 
-Siga 
-[estas otras instrucciones](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+[Estas instrucciones](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+explican cómo clonar un repositorio una vez obtenida su dirección en GitHub.
+
 para clonar el repositorio de esta práctica, cuya dirección es
 ```
 git@github.com:IB-2022-2023/P05-expressions.git
 ```
-Para ello, en su máquina virtual Ubuntu de la asignatura acceda al directorio en el que esté organizando sus
+en su máquina virtual Ubuntu de la asignatura acceda al directorio en el que esté organizando sus
 prácticas y ejecute:
 ```
 $ git clone git@github.com:IB-2022-2023/P05-expressions.git practica05-expressions
 ```
 En ese comando, el segundo parámetro (`practica05-expressions`) es el nombre del directorio donde se incluirá
 el contenido del repositorio que se está copiando.
+Puede usar Ud. ese nombre u otro que le parezca adecuado.
 El primer parámetro es la dirección del respositorio que ha de ser público para poder copiarlo.
 Una vez ejecutado el comando, acceda al directorio `practica05-expressions` y examine el contenido del mismo.
 
-GitHub utiliza profusamente ficheros de texto con formato Markdown, que suelen tener la extensión `md`.
-El fichero `README.md` (así lo indica su extensión) es un fichero de texto en formato Markdown.
+GitHub utiliza profusamente ficheros de texto con formato Markdown, que suelen tener la extensión `.md`
+El fichero `README.md` es un fichero de texto (compruébelo con el comando `file`) en formato Markdown.
 Markdown es un lenguaje de marcas que permite aplicar formato (negrita, itálicas, imágenes, listas, etc.) a un
 fichero de texto.
 Este texto que está Ud. leyendo está escrito asimismo en un fichero con formato Markdown, y es uno de los que
@@ -127,31 +129,6 @@ Si quiere probar esta otra posibilidad, acceda a su cuenta GitHub y siga
 para crear un repositorio en su cuenta de GitHub.
 Elija un nombre adecuado para su repositorio (en lugar de `hello-world`).
 Haga que su repositorio sea privado.
-
-### Github Classroom
-Para cada una de las prácticas de *Informática Básica* el profesorado de la asignatura creará un repositorio
-público en GitHub que contendrá, además del enunciado de la práctica que se propone realizar, algunos ficheros
-que pudieran ser necesarios para el trabajo propuesto.
-
-El repositorio correspondiente a esta práctica está accesible a través de
-[este enlace](https://github.com/IB-2022-2023/P04-first-programs)
-de modo que la primera tarea a desarrollar es clonar (copiar) ese repositorio en un directorio adecuado de su
-máquina virtual de la asignatura.
-La dirección que ha de usar para clonar el directorio la puede hallar en la pestaña *Code* de la página
-anterior, seleccionando la opción *SSH* en el desplegable que se abre en esa opción.
-Así pues, el comando para clonar el repositorio de esta práctica es
-``` .bash
-git clone git@github.com:IB-2022-2023/P04-first-programs.git <directorio en mi máquina virtual>
-```
-Comience su trabajo en esta práctica clonando el repositorio anterior.
-
-En el futuro se utilizará GitHub Classroom (una plataforma relacionada con GitHub) para gestionar las
-prácticas de *Informática Básica*.
-En esa plataforma, para la realización de cada práctica recibirá una invitación a una tarea que tendrá que
-aceptar.
-Una vez acepte la invitación tendrá que clonar un repositorio asociado a la tarea.
-Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en él directorios con los programas
-que realice.
 
 ### La Guía de Estilo de Google para C++
 [Esta guía](https://google.github.io/styleguide/cppguide.html) 
