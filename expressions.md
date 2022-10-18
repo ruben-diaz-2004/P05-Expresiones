@@ -195,6 +195,8 @@ Cada nivel de indentación ha de hacerse con 2 espacios (lo cual se puede config
 para el editor vim).
 * Todos los identificadores (de variable, de funmciones, de clases, etc.) que utilice en su código han de ser significativos.
 Es una mala práctica el uso de identificadores de un solo caracter salvo para casos muy concretos.
+* Asimismo deberán ser significativos los nombres que elija para sus ficheros y directorios, de modo que por
+ejemplo es preferible el nombre de fichero `P48107-integer-division-and-reminder.cc` que el nombre `P48107.cc`
 * Todos los ficheros de código de un proyecto han de contener un bloque de comentarios prólogo
 donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
 * No comente lo obvio. 
@@ -257,11 +259,10 @@ Experimente con la herramienta y ejecute con ella los programas que haya estudia
 los programas correspondientes a los ejercicios anteriores.
 Al usar la herramienta, preste especial atención a la ejecución del programa `references.cc`
 
-5.- Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
+5.- Escriba un programa que solucionen el siguiente problema 
+
+[P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
+
+y evalúe su solución utilizando Jutge.
 Recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista del funcionamiento.
 Su código ha de cumplir adicionalmente con los requisitos de formato y estilo.
-
-1. [P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
-2. [P29973](https://jutge.org/problems/P29973) Triangle
-3. [P90615](https://jutge.org/problems/P90615) Maximum of three integer numbers
-4. [P70955](https://jutge.org/problems/P70955) How many seconds are they?
