@@ -262,7 +262,7 @@ Experimente con la herramienta y ejecute con ella los programas que haya estudia
 los programas correspondientes a los ejercicios anteriores.
 Al usar la herramienta, preste especial atención a la ejecución del programa `references.cc`
 
-5.- Escriba un programa que solucionen el problema 
+5.- Escriba un programa que solucione el problema 
 
 [P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
 
