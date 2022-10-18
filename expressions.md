@@ -131,14 +131,15 @@ Elija un nombre adecuado para su repositorio (en lugar de `hello-world`).
 Haga que su repositorio sea privado.
 
 ### La Guía de Estilo de Google para C++
-[Esta guía](https://google.github.io/styleguide/cppguide.html) 
+La
+[Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
 es un documento de referencia para todos los
 programas que se desarrollen en la asignatura, de modo que debe Ud. profundizar en su estudio.
 Ante cualquier duda sobre cualquier aspecto relacionado con el estilo (apariencia) del código, se atenderá lo
 que se indique en esta guía.
 
 Estudie la sección de nominación 
-[Naming](https://google.github.io/styleguide/cppguide.html#Naming)
+([Naming](https://google.github.io/styleguide/cppguide.html#Naming))
 y dentro de ella estudie las reglas de nombrado de ficheros, tipos, variables y constantes.
 En el futuro deberá estudiar las reglas de nombrado de otras entidades que aún no se han estudiado en la asignatura.
 
@@ -165,14 +166,13 @@ De forma paulatina se irá estudiando con mayor profundidad esa guía así como 
 programas a desarrollar, las recomendaciones que allí se exponen.
 
 Se enumeran a continuación algunas cuestiones relativas al formato (aspecto) del código que en la mayoría de
-los casos se reflejan en diferentes puntos de la 
-[guía](https://google.github.io/styleguide/cppguide.html).
+los casos se reflejan en diferentes puntos de la guía:
 
 * A ambos lados de un operador binario ha de haber siempre un espacio.
 Véase
 [Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace) y
 Así siempre se escribirá
-```
+``` C++
 a + b
 ```
 En lugar de:
@@ -204,7 +204,6 @@ mi_variable = 2 * intensidad;    // El valor de intensidad se multiplica por 2
 ``` 
 es absolutamente superfluo. 
 No aporta información alguna a lo que ya se indica en la sentencia.
-
 
 ### Expresiones
 Además de estudiar todo el material expuesto en clases de teoría hasta la actualidad, estudie detenidamente
