@@ -232,10 +232,13 @@ las sesiones de Problemas de *Informática Básica*.
 ### Ejercicios
 1. Desinflado. Desarrolle un programa `desinflado.cc` que lea una letra mayúscula y muestre por pantalla su
 correspondiente letra minúscula.
-Tests de funcionamiento
+
+**Tests de funcionamiento**
+```
 Entrada Salida
    A      a
    M      m
+```
 
 2. Escriba un programa `boolean_operators.cc` que imprima en pantalla la
 [tabla de verdad](https://en.wikipedia.org/wiki/Truth_table#Truth_table_for_all_binary_logical_operators)
@@ -259,7 +262,7 @@ Experimente con la herramienta y ejecute con ella los programas que haya estudia
 los programas correspondientes a los ejercicios anteriores.
 Al usar la herramienta, preste especial atención a la ejecución del programa `references.cc`
 
-5.- Escriba un programa que solucionen el siguiente problema 
+5.- Escriba un programa que solucionen el problema 
 
 [P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
 
