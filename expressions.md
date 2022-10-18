@@ -193,18 +193,17 @@ La
 de un nuevo párrafo o nivel de estructuración del código.
 Cada nivel de indentación ha de hacerse con 2 espacios (lo cual se puede configurar en el fichero `.vimrc`
 para el editor vim).
-* Todos los identificadores (de variable, de funmciones, de clases, etc.) que utilice en su código ha de ser significativo.
+* Todos los identificadores (de variable, de funmciones, de clases, etc.) que utilice en su código han de ser significativos.
 Es una mala práctica el uso de identificadores de un solo caracter salvo para casos muy concretos.
-* Todos los ficheros de código de un proyecto ha de contener un bloque de comentarios prólogo
+* Todos los ficheros de código de un proyecto han de contener un bloque de comentarios prólogo
 donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
 * No comente lo obvio. 
 No se trata de comentar por comentar, sino de aclarar al lector/a allí donde sea necesario la finalidad del cóodigo que se escribe.
-Por ejemplo un cómentario como el siguiente:
+Por ejemplo el siguiente comentario es absolutamente superfluo puesto que
+no aporta información alguna a lo que ya se indica en la sentencia.
 ``` 
 mi_variable = 2 * intensidad;    // El valor de intensidad se multiplica por 2
 ``` 
-es absolutamente superfluo. 
-No aporta información alguna a lo que ya se indica en la sentencia.
 
 ### Expresiones
 Además de estudiar todo el material expuesto en clases de teoría hasta la actualidad, estudie detenidamente
