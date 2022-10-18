@@ -4,19 +4,22 @@
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
-* XXX
+* Practique el desarrollo de programas simples en C++ que involucren expresiones
+* Estudie y conozca los fundamentos de trabajo con las herramientas Git y GitHub
+* Estudie y ponga en práctica las indicaciones que se proponen en la 
+[Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Ha de demostrar que conoce el proceso de compilación de programas usando el compilador de C++ de GNU
-* Ha de demostrar su capacidad para establecer un fichero de configuración de vim para sus tareas de edición
-  en la asignatura
-* Ha de acreditar que dispone de una cuenta de usuario en la plataforma Jutge y que conoce los fundamentos de
-  trabajo en esa plataforma
+* Ha de acreditar que es capaz de subir programas a la plataforma 
+[Jutge](https://jutge.org/)
+para su evaluación
 * Se comprobará que todos los ficheros (`*.cc`, `*.h`) de sus prácticas incluyen un comentario de cabecera
+* Se comprobará que todos los programas de sus prácticas sean conforme a la
+[Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
 * Ha de acreditar que es capaz de editar ficheros remotos en su VM usando vi
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
-* Ha de acreditarse que se es capaz de conectarse a su máquina virtual (VM) de la asignatura 
 
 ### Introducción a Git y GitHub
 GitHub es un servicio en la nube con una interfaz web que ayuda a los desarrolladores a almacenar y administrar el código
@@ -151,7 +154,8 @@ Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en �
 que realice.
 
 ### La Guía de Estilo de Google para C++
-[Esta guía](https://google.github.io/styleguide/cppguide.html) es un documento de referencia para todos los
+[Esta guía](https://google.github.io/styleguide/cppguide.html) 
+es un documento de referencia para todos los
 programas que se desarrollen en la asignatura, de modo que debe Ud. profundizar en su estudio.
 Ante cualquier duda sobre cualquier aspecto relacionado con el estilo (apariencia) del código, se atenderá lo
 que se indique en esta guía.
