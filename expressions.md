@@ -170,14 +170,15 @@ los casos se reflejan en diferentes puntos de la guía:
 
 * A ambos lados de un operador binario ha de haber siempre un espacio.
 Véase
-[Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace) y
+[Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace).
+
 Así siempre se escribirá
 ``` C++
-a + b
+energy = mass * kLightSpeed * kLightSpeed;
 ```
 En lugar de:
-```
-a+b
+``` C++
+energy=mass*kLightSpeed*kLightSpeed;
 ```
 Recuerde que un operador binario es un operador que opera dos operandos para producir como resultado un nuevo
 valor.
