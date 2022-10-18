@@ -153,6 +153,8 @@ que realice.
 ### La Guía de Estilo de Google para C++
 [Esta guía](https://google.github.io/styleguide/cppguide.html) es un documento de referencia para todos los
 programas que se desarrollen en la asignatura, de modo que debe Ud. profundizar en su estudio.
+Ante cualquier duda sobre cualquier aspecto relacionado con el estilo (apariencia) del código, se atenderá lo
+que se indique en esta guía.
 
 Estudie la sección de nominación 
 [Naming](https://google.github.io/styleguide/cppguide.html#Naming)
@@ -177,12 +179,53 @@ estudie los apartados
 [Variable Comments](https://google.github.io/styleguide/cppguide.html#Variable_Comments) y
 [Implementation Comments](https://google.github.io/styleguide/cppguide.html#Implementation_Comments).
 
-Ponga en práctica esas reglas en todos los programas que desarrolle de ahora en adelante.
+Ponga en práctica esas reglas en todos los programas que desarrolle.
 De forma paulatina se irá estudiando con mayor profundidad esa guía así como poniendo en práctica en los
 programas a desarrollar, las recomendaciones que allí se exponen.
 
-### Expresiones
+Se enumeran a continuación algunas cuestiones relativas al formato (aspecto) del código que en la mayoría de
+los casos se reflejan en diferentes puntos de la 
+[guía](https://google.github.io/styleguide/cppguide.html).
 
+* A ambos lados de un operador binario ha de haber siempre un espacio.
+Véase
+[Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace) y
+Así siempre se escribirá
+```
+a + b
+```
+En lugar de:
+```
+a+b
+```
+Recuerde que un operador binario es un operador que opera dos operandos para producir como resultado un nuevo
+valor.
+Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ...
+Para mayor detalle sobre este tipo de operadores, consulte
+[esta referencia](https://www.scaler.com/topics/binary-operator-in-c/).
+* Siempre después de una coma (`,`) ha de escribirse un espacio (` `).
+* Se debe indentar (sangrar) el código usando espacios y no tabuladores. 
+La
+[indentación](https://en.wikipedia.org/wiki/Indentation_(typesetting))
+(sangrado en español) es el espacio en blanco que se deja al principio de cada línea para indicar el comienzo
+de un nuevo párrafo o nivel de estructuración del código.
+Cada nivel de indentación ha de hacerse con 2 espacios (lo cual se puede configurar en el fichero `.vimrc`
+para el editor vim).
+* Todos los identificadores (de variable, de funmciones, de clases, etc.) que utilice en su código ha de ser significativo.
+Es una mala práctica el uso de identificadores de un solo caracter salvo para casos muy concretos.
+* Todos los ficheros de código de un proyecto ha de contener un bloque de comentarios prólogo
+donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
+* No comente lo obvio. 
+No se trata de comentar por comentar, sino de aclarar al lector/a allí donde sea necesario la finalidad del cóodigo que se escribe.
+Por ejemplo un cómentario como el siguiente:
+``` 
+mi_variable = 2 * intensidad;    // El valor de intensidad se multiplica por 2
+``` 
+es absolutamente superfluo. 
+No aporta información alguna a lo que ya se indica en la sentencia.
+
+
+### Expresiones
 Además de estudiar todo el material expuesto en clases de teoría hasta la actualidad, estudie detenidamente
 los contenidos del tema
 [Primeros Programas](http://www.minidosis.org/#/temas/Cpp.PrimerosProgramas)
@@ -204,53 +247,41 @@ se utilizará la extensión `.cc`
 Tome nota de todas las dudas que le surjan al estudiar este material, para estudiarlas con el profesorado en
 las sesiones de Problemas de *Informática Básica*.
 
-### La plataforma Jutge
-[Jutge](https://jutge.org/) 
-es una plataforma que ha sido desarrollada en la
-[UPC](https://www.upc.edu/en) 
-para uso docente en asignaturas de programación.
-La plataforma ofrece una gran cantidad de problemas que los estudiantes han de resolver y el Jutge (juez en catalán) asigna un 
-[veredicto](https://jutge.org/documentation/verdicts) 
-a cada solución que se suba a la plataforma.
+### Ejercicios
+1. Desinflado. Desarrolle un programa `desinflado.cc` que lea una letra mayúscula y muestre por pantalla su
+correspondiente letra minúscula.
+Tests de funcionamiento
+Entrada Salida
+   A      a
+   M      m
 
-Jutge solo evalúa los programas desde el punto de vista de la corrección del resultado que ofrecen, 
-no evalúa la calidad del código en cuanto a otros aspectos: diseño, estilo, formato, etc.
-Para determinar si un programa es correcto o no, Jutge aplica varios tests al programa (tests unitarios)
-que tratan de acreditar la bondad de la solución, que podría ser parcialmente correcta.
-Algunos de esos tests son públicos y la programadora debiera encargarse de asegurar que su programa pasa
-esos tests públicos (ofrece los resultados esperados) antes de enviar el programa al juez.
+2. Escriba un programa `boolean_operators.cc` que imprima en pantalla la
+[tabla de verdad](https://en.wikipedia.org/wiki/Truth_table#Truth_table_for_all_binary_logical_operators)
+de los operadores lógicos (and, or, not) de C++.
+El programa deberá utilizar un par de variables booleanas y mostrar el resultado de operar ambas variables con
+todos sus posibles valores y con cada uno de los operadores lógicos.
 
-Para la realización de futuras prácticas de la asignatura deberá Ud. registrarse en la plataform Jutge. 
-Recibirá para ello un mensaje de correo con asunto similar a: "Jutge.org - You have been invited to a course". 
-Acepte esa invitación y regístrese en el curso *Informática Básica* en la plataforma Jutge usando para ello su
-cuenta de correo electrónico institucional.
-Es importante que se registre en Jutge con esa cuenta y no otra.
+3. Escriba un programa `arithmetic_operators.cc` que declare e inicialice variables de tipos aritméticos e
+imprima en pantalla el resultado de operar esas variables con todos los operadores que pueda utilizar con
+ellas.
+Utilice operadores aritméticos y de comparación.
+El programa imprimirá en pantalla líneas como la siguiente:
+```
+7 % 3 = 1
+```
+Para cada uno de los operadores considerados.
 
-[Este documento](https://docs.google.com/presentation/d/1k53XMnI6Z9DTlBHRJ0cBqix0KZyVIFUgD61XAcsgA9Y/edit?usp=sharing)
-contiene información algo más detallada sobre el uso de la plataforma Jutge. 
-Estúdielo para preparse a usar Jutge en el futuro.
+4. [C++ Tutor](http://pythontutor.com/cpp.html#mode=edit) es una herramienta que a través de una interfaz web
+permite "visualizar" la ejecución de programas escritos en C++ (también tiene soporte para otros lenguajes).
+Experimente con la herramienta y ejecute con ella los programas que haya estudiado en clase, así como todos
+los programas correspondientes a los ejercicios anteriores.
+Al usar la herramienta, preste especial atención a la ejecución del programa `references.cc`
 
-Compile el programa `squares.cc` que hallará en el subdiretorio `jutge` de esta práctica.
-Ejecute el programa resultante de la compilación introduciendo los datos de entrada a través del teclado.
-Aprenda a conseguir que el programa tome la entrada de datos desde un fichero de texto, de modo que pueda
-ejecutar el programa como:
-``` .bash
-$ ./squares < fichero_entrada.txt
-``` 
-Consiga igualmente que su programa tome la entrada desde un fichero y escriba la salida en otro:
-``` .bash
-$ ./squares < entrada.txt > salida.txt
-``` 
+5.- Escriba programas que solucionen los siguientes problemas y evalúe su solución utilizando Jutge.
+Recuerde que Jutge solo evalúa la corrección de su programa desde un punto de vista del funcionamiento.
+Su código ha de cumplir adicionalmente con los requisitos de formato y estilo.
 
-El programa `dni.cc` que hallará en el subdirectorio `jutge` de la práctica soluciona el problema
-[P24216](https://jutge.org/problems/P24216_es) de Jutge.
-Modifique convenientemente el programa para que escriba la solución que Jutge espera y
-[suba su solución](https://jutge.org/problems/P24216_es/submissions)
-a la plataforma para su evaluación.
-
-### Comandos Linux útiles a la hora de procesar ficheros de texto
-Por último, aprenda a utilizar el comando
-[diff](https://ss64.com/bash/diff.html).
-Los ejemplos y explicaciones de 
-[este tutorial](https://www.computerhope.com/unix/udiff.htm) 
-pueden resultarle útiles para conocer `diff`
+1. [P48107](https://jutge.org/problems/P48107) Integer division and remainder of two natural numbers
+2. [P29973](https://jutge.org/problems/P29973) Triangle
+3. [P90615](https://jutge.org/problems/P90615) Maximum of three integer numbers
+4. [P70955](https://jutge.org/problems/P70955) How many seconds are they?
