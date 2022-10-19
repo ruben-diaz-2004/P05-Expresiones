@@ -4,7 +4,7 @@
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
-* Practique el desarrollo de programas simples en C++ que involucren expresiones
+* Practique el desarrollo de programas simples en C++ que involucren expresiones con diferentes tipos de datos
 * Estudie y conozca los fundamentos de trabajo con las herramientas Git y GitHub
 * Estudie y ponga en práctica las indicaciones que se proponen en la 
 [Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
@@ -16,7 +16,7 @@ Se señalan a continuación los aspectos más relevantes (la lista no es exhaust
 [Jutge](https://jutge.org/)
 para su evaluación
 * Se comprobará que todos los ficheros (`*.cc`, `*.h`) de sus prácticas incluyen un comentario de cabecera
-* Se comprobará que todos los programas de sus prácticas sean conforme a la
+* Se comprobará que todos los programas de sus prácticas se ajusten a la
 [Guía de estilo de Google para C++](https://google.github.io/styleguide/cppguide.html) 
 * Ha de acreditar que es capaz de editar ficheros remotos en su VM usando vi
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
