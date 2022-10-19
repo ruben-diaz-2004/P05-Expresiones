@@ -11,6 +11,8 @@ Los objetivos de esta práctica son que el alumnado:
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica:
+* Se comprobará que el alumnado es capaz de escribir y evaluar expresiones que involucren diferentes tipos de
+datos
 * Ha de demostrar que conoce el proceso de compilación de programas usando el compilador de C++ de GNU
 * Ha de acreditar que es capaz de subir programas a la plataforma 
 [Jutge](https://jutge.org/)
