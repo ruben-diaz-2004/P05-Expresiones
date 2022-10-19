@@ -74,7 +74,7 @@ $ git clone git@github.com:IB-2022-2023/P05-expressions.git practica05-expressio
 En ese comando, el segundo parámetro (`practica05-expressions`) es el nombre del directorio donde se incluirá
 el contenido del repositorio que se está copiando.
 Puede usar Ud. ese nombre u otro que le parezca adecuado.
-El primer parámetro es la dirección del respositorio que ha de ser público para poder copiarlo.
+El primer parámetro es la dirección del repositorio que ha de ser público para poder copiarlo.
 Una vez ejecutado el comando, acceda al directorio `practica05-expressions` y examine el contenido del mismo.
 
 GitHub utiliza profusamente ficheros de texto con formato Markdown, que suelen tener la extensión `.md`
@@ -108,8 +108,8 @@ $ git add .
 $ git commit -m "Texto alusivo a los cambios realizados"
 $ git push
 ```
-* El primero de los comandos anteriores, `git pull` es siempre conveniente porque de ese modo se asegura que se descarga al
-ordenador la última versión del código que esté alojado en la nube de GitHub.
+* El primero de los comandos anteriores, `git pull` es siempre conveniente porque de ese modo se asegura que se descarga 
+localmente la última versión del código que esté alojado en la nube de GitHub.
 * `git add .` actualiza el índice de git con el contenido del directorio actual (nótese el punto -directorio
   actual, el de trabajo- en el comando).
 * `git commit` registra el el repositorio los cambios que se hayan realizado. A esos cambios les asocia el
@@ -185,6 +185,11 @@ valor.
 Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ...
 Para mayor detalle sobre este tipo de operadores, consulte
 [esta referencia](https://www.scaler.com/topics/binary-operator-in-c/).
+* Deje siempre un espacio antes del caracter de llave abierta (`{` *curly brace*), así como después de un
+inicio de comentario (`//`):
+```cpp
+int main() {  // Open braces should always have a space before them
+```
 * Siempre después de una coma (`,`) ha de escribirse un espacio (` `).
 * Se debe indentar (sangrar) el código usando espacios y no tabuladores. 
 La
