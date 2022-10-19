@@ -168,14 +168,20 @@ programas a desarrollar, las recomendaciones que allí se exponen.
 Se enumeran a continuación algunas cuestiones relativas al formato (aspecto) del código que en la mayoría de
 los casos se reflejan en diferentes puntos de la guía:
 
+* Todos los identificadores (de diferentes entidades: variables, funciones, clases, etc.) que utilice en su código han de ser significativos.
+Es una mala práctica el uso de identificadores de un solo caracter salvo para casos muy concretos.
+* Asimismo deberán ser significativos los nombres que elija para sus ficheros y directorios, de modo que por
+ejemplo es preferible el nombre de fichero `P48107-integer-division-and-reminder.cc` que el nombre `P48107.cc`
+* Todos los ficheros de código de un proyecto han de contener un bloque de comentarios prólogo
+donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
 * Un operador binario es un operador que opera dos operandos para producir como resultado un nuevo valor.
 Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ...
 Para mayor detalle sobre este tipo de operadores, consulte
 [esta referencia](https://www.scaler.com/topics/binary-operator-in-c/).
 
 A ambos lados de un operador binario ha de haber siempre un espacio.
-Véase
-[Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace).
+(Véase
+[Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace)).
 
 Así siempre se escribirá
 ```cpp
@@ -198,12 +204,6 @@ La
 de un nuevo párrafo o nivel de estructuración del código.
 Cada nivel de indentación ha de hacerse con 2 espacios (lo cual se puede configurar en el fichero `.vimrc`
 para el editor vim).
-* Todos los identificadores (de variable, de funmciones, de clases, etc.) que utilice en su código han de ser significativos.
-Es una mala práctica el uso de identificadores de un solo caracter salvo para casos muy concretos.
-* Asimismo deberán ser significativos los nombres que elija para sus ficheros y directorios, de modo que por
-ejemplo es preferible el nombre de fichero `P48107-integer-division-and-reminder.cc` que el nombre `P48107.cc`
-* Todos los ficheros de código de un proyecto han de contener un bloque de comentarios prólogo
-donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
 * No comente lo obvio. 
 No se trata de comentar por comentar, sino de aclarar al lector/a allí donde sea necesario la finalidad del cóodigo que se escribe.
 Por ejemplo el siguiente comentario es absolutamente superfluo puesto que
