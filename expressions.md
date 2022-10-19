@@ -173,11 +173,11 @@ Véase
 [Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace).
 
 Así siempre se escribirá
-``` C++
+```cpp
 energy = mass * kLightSpeed * kLightSpeed;
 ```
 En lugar de:
-``` C++
+```cpp
 energy=mass*kLightSpeed*kLightSpeed;
 ```
 Recuerde que un operador binario es un operador que opera dos operandos para producir como resultado un nuevo
@@ -203,31 +203,52 @@ donde se indique al menos: autor, información de contacto, fecha, asignatura, f
 No se trata de comentar por comentar, sino de aclarar al lector/a allí donde sea necesario la finalidad del cóodigo que se escribe.
 Por ejemplo el siguiente comentario es absolutamente superfluo puesto que
 no aporta información alguna a lo que ya se indica en la sentencia.
-``` 
+```cpp
 mi_variable = 2 * intensidad;    // El valor de intensidad se multiplica por 2
 ``` 
 
-### Expresiones
-Además de estudiar todo el material expuesto en clases de teoría hasta la actualidad, estudie detenidamente
-los contenidos del tema
-[Primeros Programas](http://www.minidosis.org/#/temas/Cpp.PrimerosProgramas)
-del tutorial MiniDosis.
-En ese tema hallará vídeos y textos explicativos, ejercicios en los que tendrá que copiar programas,
-escribirlos usando vim, compilarlos y ejecutarlos. También hallará ejercicios para evaluar los conocimientos
-adquiridos.
-
-Tenga en cuenta que en ese tutorial se utiliza CodeBlocks mientras que en *Informática Básica* se utiliza vim
-para escribir programas.
-
-Cree un subdirectorio con nombre `primeros_programas` en el directorio de trabajo de esta práctica y escriba en el
-mismo todos los programas que se le propone en el tema.
-En el tutorial para los ficheros con código C++ se utiliza la extensión `.cpp`, mientras que en *Informática
-Básica*, siguiendo la 
+### El tutorial *Learn C++*
+El tutorial 
+[Learn C++](https://www.learncpp.com/)
+es el tutorial de referencia para aprender C++ en *Informática Básica*.
+Se trata de un tutorial que utiliza C++ moderno y es muy completo, conteniendo material de estudio,
+referencias, ejercicios, consejos sobre buenas prácticas, etc.
+Un inconveniente de este tutorial es que no sigue las recomendaciones de la
 [Guía de Estilo de Google para C++](https://google.github.io/styleguide/cppguide.html#File_Names)
-se utilizará la extensión `.cc`
+pero es algo que se puede gestionar adecuadamente siendo conscientes de ello.
+Particularmente, en este tutorial la disposición de las llaves `{`, `}` (*curly braces*) que se usan en C++ para delimitar
+bloques de código no coincide con
+[la que se recomienda](https://google.github.io/styleguide/cppguide.html#Conditionals)
+en la Guía de Estilo.
 
-Tome nota de todas las dudas que le surjan al estudiar este material, para estudiarlas con el profesorado en
-las sesiones de Problemas de *Informática Básica*.
+El tutorial cubre sobradamente todo el material que se precisa estudiar en la asignatura, de modo que se le
+recomienda al alumnado estudiar todo este material usando como guía las clases de teoría de la asignatura.
+
+En particular, en esta práctica se les pide que estudien los capítulos 1 
+[C++ Basics](https://www.learncpp.com/cpp-tutorial/statements-and-the-structure-of-a-program/)
+y 4
+[Fundamental Data Types](https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data-types/)
+del tutorial.
+Esos capítulos abordan temas que ya hemos revisado en las clases de teoría.
+Se les propone que los estudien y respondan
+[las preguntas](https://www.learncpp.com/cpp-tutorial/chapter-1-summary-and-quiz/)
+que figuran al final de los capítulos.
+
+### Expresiones
+Preste especial atención al estudio de las 
+[expresiones](https://www.learncpp.com/cpp-tutorial/introduction-to-expressions/)
+en C++.
+Una expresión es una combinación de literales, variables y operadores que calculan un único valor.
+Así por ejemplo:
+```cpp
+energy = mass * kLightSpeed * kLightSpeed;
+```
+Si desea ampliar el estudio de las expresiones, puede recurrir también a los temas de
+[Expresiones](http://www.minidosis.org/#/temas/Cpp.Expresiones)
+y 
+[Expresiones booleanas](http://www.minidosis.org/#/temas/Cpp.ExpresionesBooleanas)
+del tutorial MiniDosis.
+
 
 ### Ejercicios
 1. Desinflado. Desarrolle un programa `desinflado.cc` que lea una letra mayúscula y muestre por pantalla su
@@ -251,7 +272,7 @@ imprima en pantalla el resultado de operar esas variables con todos los operador
 ellas.
 Utilice operadores aritméticos y de comparación.
 El programa imprimirá en pantalla líneas como la siguiente:
-```
+```cpp
 7 % 3 = 1
 ```
 Para cada uno de los operadores considerados.
