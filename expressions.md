@@ -174,15 +174,13 @@ Es una mala práctica el uso de identificadores de un solo caracter salvo para c
 ejemplo es preferible el nombre de fichero `P48107-integer-division-and-reminder.cc` que el nombre `P48107.cc`
 * Todos los ficheros de código de un proyecto han de contener un bloque de comentarios prólogo
 donde se indique al menos: autor, información de contacto, fecha, asignatura, finalidad del código, etc.
-* Un operador binario es un operador que opera dos operandos para producir como resultado un nuevo valor.
+* Un operador binario es aquél que opera dos operandos para producir como resultado un nuevo valor.
 Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ...
 Para mayor detalle sobre este tipo de operadores, consulte
 [esta referencia](https://www.scaler.com/topics/binary-operator-in-c/).
-
 A ambos lados de un operador binario ha de haber siempre un espacio.
 (Véase
 [Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace)).
-
 Así siempre se escribirá
 ```cpp
 energy = mass * kLightSpeed * kLightSpeed;
