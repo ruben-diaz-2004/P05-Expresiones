@@ -168,7 +168,12 @@ programas a desarrollar, las recomendaciones que allí se exponen.
 Se enumeran a continuación algunas cuestiones relativas al formato (aspecto) del código que en la mayoría de
 los casos se reflejan en diferentes puntos de la guía:
 
-* A ambos lados de un operador binario ha de haber siempre un espacio.
+* Un operador binario es un operador que opera dos operandos para producir como resultado un nuevo valor.
+Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ...
+Para mayor detalle sobre este tipo de operadores, consulte
+[esta referencia](https://www.scaler.com/topics/binary-operator-in-c/).
+
+A ambos lados de un operador binario ha de haber siempre un espacio.
 Véase
 [Horizontal Whitespace](https://google.github.io/styleguide/cppguide.html#Horizontal_Whitespace).
 
@@ -180,11 +185,6 @@ En lugar de:
 ```cpp
 energy=mass*kLightSpeed*kLightSpeed;
 ```
-Recuerde que un operador binario es un operador que opera dos operandos para producir como resultado un nuevo
-valor.
-Algunos ejemplos de operadores binarios en C++ son `+` (suma), `*` (producto), `/` (división), `%` (módulo), `=` (asignación), ...
-Para mayor detalle sobre este tipo de operadores, consulte
-[esta referencia](https://www.scaler.com/topics/binary-operator-in-c/).
 * Deje siempre un espacio antes del caracter de llave abierta (`{` *curly brace*), así como después de un
 inicio de comentario (`//`):
 ```cpp
