@@ -224,7 +224,7 @@ bloques de código no coincide con
 [la que se recomienda](https://google.github.io/styleguide/cppguide.html#Conditionals)
 en la Guía de Estilo.
 
-El tutorial cubre sobradamente todo el material que se precisa estudiar en la asignatura, de modo que se le
+El tutorial cubre sobradamente todo el material que se precisa estudiar en la asignatura, de modo que se
 recomienda al alumnado estudiar todo este material usando como guía las clases de teoría de la asignatura.
 
 En particular, en esta práctica se les pide que estudien los capítulos 1 
@@ -232,7 +232,7 @@ En particular, en esta práctica se les pide que estudien los capítulos 1
 y 4
 [Fundamental Data Types](https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data-types/)
 del tutorial.
-Esos capítulos abordan temas que ya hemos revisado en las clases de teoría.
+Esos capítulos abordan temas que ya se han revisado en las clases de teoría.
 Se les propone que los estudien y respondan
 [las preguntas](https://www.learncpp.com/cpp-tutorial/chapter-1-summary-and-quiz/)
 que figuran al final de los capítulos.
@@ -246,6 +246,8 @@ Así por ejemplo:
 ```cpp
 energy = mass * kLightSpeed * kLightSpeed;
 ```
+es una expresión que calcula el valor de la energía a partir de los valores de la masa y la velocidad de la
+luz.
 Si desea ampliar el estudio de las expresiones, puede recurrir también a los temas de
 [Expresiones](http://www.minidosis.org/#/temas/Cpp.Expresiones)
 y 
@@ -254,7 +256,33 @@ del tutorial MiniDosis.
 
 
 ### Ejercicios
-1. Desinflado. Desarrolle un programa `desinflado.cc` que lea una letra mayúscula y muestre por pantalla su
+1. Estudie el apartado 
+[Conocer el código ASCII](http://www.minidosis.org/#/temas/Cpp.Expresiones)
+(vídeo y ejemplos) del tutorial MiniDosis.
+
+Tenga en cuenta que en MiniDosis se utiliza *la forma antigua* de realizar conversiones de tipos.
+```cpp
+int variable1;
+double variable2 = 4.5;
+variable1 = int(variable2);
+```
+En el código anterior en la sentencia `my_variable1 = int(my_variable2)` la segunda variable es *convertida* a
+entero para asignar su valor a `variable1`.
+Tal como se explica en
+[Introduction to type conversion and
+static_cast](https://www.learncpp.com/cpp-tutorial/introduction-to-type-conversion-and-static_cast/)
+la forma más adecuada en C++ de realizar una conversión de tipos es usar el operador `static_cast`, de modo
+que el código anterior sería equivalente a:
+```cpp
+int variable1;
+double variable2 = 4.5;
+variable1 = static_cast<int>(variable2);
+```
+Estudie el programa de ejemplo
+[static_cast.cc](https://github.com/IB-2022-2023/IB-class-code-examples/blob/master/IntroductionToC%2B%2B/static_cast.cc)
+de los utilizados junto a las transparencias de la asignatura.
+
+Desinflado. Desarrolle un programa `desinflado.cc` que lea una letra mayúscula y muestre por pantalla su
 correspondiente letra minúscula.
 
 **Tests de funcionamiento**
