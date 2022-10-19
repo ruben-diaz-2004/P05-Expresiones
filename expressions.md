@@ -24,9 +24,11 @@ para su evaluación
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
 
 ### Introducción a Git y GitHub
-GitHub es un servicio en la nube con una interfaz web que ayuda a los desarrolladores a almacenar y administrar el código
+[GitHub](https://github.com/)
+es un servicio en la nube con una interfaz web que ayuda a los desarrolladores a almacenar y administrar el código
 fuente de sus programas así como a llevar un registro y control de cualquier cambio que se realice sobre ese código. 
-Git es un sistema distribuido de control de versiones.
+[Git](https://git-scm.com/)
+es un sistema distribuido de control de versiones.
 En Git todo el código y su historial de cambios se encuentran disponibles en el ordenador del desarrollador.
 En la web se puede encontrar multitud de tutoriales sobre el uso de GitHub y git y
 [este](https://www.diegocmartin.com/tutorial-git/), por ejemplo puede ser un buen punto de comienzo para estudiar
@@ -35,8 +37,7 @@ Esta [guía simple](https://rogerdudler.github.io/git-guide/) también puede ser
 
 A la hora de estudiar estas herramientas ha de tener en cuenta que el uso que en esta asignatura se va a
 realizar de las mismas es básico: inicialmente cada estudiante va a utilizar git/GitHub exclusivamente para almacenar el
-código fuente de cada una de las prácticas que desarrolla, así como los ejercicios de programación que
-desarrolle.
+código fuente de cada una de las prácticas y ejercicios de programación que desarrolle.
 No se pretende que compartan código a través de git ni que colaboren en el desarrollo de código usando estas
 herramientas.
 También ha de tener en cuenta que un entorno de desarrollo colaborativo de programas es el escenario más
@@ -64,10 +65,7 @@ puede serle de ayuda para configurar la clave ssh.
 [Estas instrucciones](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 explican cómo clonar un repositorio una vez obtenida su dirección en GitHub.
 
-para clonar el repositorio de esta práctica, cuya dirección es
-```
-git@github.com:IB-2022-2023/P05-expressions.git
-```
+para clonar el repositorio de esta práctica, cuya dirección es `git@github.com:IB-2022-2023/P05-expressions.git`
 en su máquina virtual Ubuntu de la asignatura acceda al directorio en el que esté organizando sus
 prácticas y ejecute:
 ```
