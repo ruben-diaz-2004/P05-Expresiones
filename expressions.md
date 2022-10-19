@@ -1,4 +1,4 @@
-# Práctica 05. Expresiones
+# Práctica 05. Expresiones y tipos de datos
 
 # Factor de ponderación: 5
 
